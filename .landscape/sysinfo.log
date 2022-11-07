@@ -1,0 +1,88 @@
+2021-07-15 16:15:18,012 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2021-07-21 16:31:45,647 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2021-07-26 17:41:38,648 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2021-12-24 12:29:16,191 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2022-01-19 03:53:02,732 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2022-02-24 00:09:37,550 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2022-03-03 00:17:58,163 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
+2022-07-30 00:54:58,984 ERROR    Processes plugin raised an exception.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/sysinfo.py", line 99, in run
+    result = plugin.run()
+  File "/usr/lib/python3/dist-packages/landscape/sysinfo/processes.py", line 17, in run
+    info = ProcessInformation(proc_dir=self._proc_dir)
+  File "/usr/lib/python3/dist-packages/landscape/lib/process.py", line 29, in __init__
+    self._jiffies_per_sec = jiffies or detect_jiffies()
+  File "/usr/lib/python3/dist-packages/landscape/lib/jiffies.py", line 42, in detect_jiffies
+    jiffies1 = int(jiffie_uptime/seconds_uptime1+0.5)
+ZeroDivisionError: float division by zero
